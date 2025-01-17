@@ -1,0 +1,107 @@
+/***backgrounds****/
+.sub1{
+  background-color: rgba(255, 0, 0, 0.258);
+}
+.sub2{
+  background-color: rgba(255, 0, 0, 0.329);
+}
+.sub3{
+  background-color: rgba(255, 0, 0, 0.381);
+}
+.sub4{
+  background-color: rgba(255, 0, 0, 0.468);
+}
+.sub5{
+  background-color: rgba(255, 0, 0, 0.571);
+}
+.sub6{
+  background-color: rgb(255, 0, 0);
+}
+.res{
+  background-color: aqua;
+}
+.add1{
+  background-color: rgba(0, 255, 98, 0.258);
+}
+.add2{
+  background-color: rgba(0, 255, 98, 0.329);
+}
+.add3{
+  background-color: rgba(0, 255, 98, 0.381);
+}
+.add4{
+  background-color: rgba(0, 255, 98, 0.468);
+}
+.add5{
+  background-color: rgba(0, 255, 98, 0.571);
+}
+.add6{
+  background-color: rgb(0, 255, 0);
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.591), -10px 10px 10px rgba(0, 0, 0, 0.591);
+  transition: 0.15s;
+}
+
+.container h2{
+  text-align: center;
+}
+.size{
+  font-size: 80px;
+}
+.reduceSize{
+  font-size: 70px;
+}
+.container .box {
+  margin: 0% 5%;
+}
+.container .box #substraction{
+  background-color: rgba(59, 178, 221, 0.868);
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .box #substraction:hover{
+  background-color: rgba(43, 202, 223, 0.909);
+  color: black;
+}
+.container .box #reset{
+  background-color: rgba(221, 59, 59, 0.868);
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.container .box #reset:hover{
+  background-color: rgba(50, 24, 219, 0.909);
+  color: black;
+}
+.container .box #addition{
+  background-color: rgba(59, 221, 70, 0.719);
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .box #addition:hover{
+  background-color: rgba(31, 219, 41, 0.909);
+  color: black;
+}
