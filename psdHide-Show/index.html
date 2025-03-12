@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password reveal programme | Developed and maintained by Ezekiel M. Ogana</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input type="password" id="password" placeholder="type your password" pattern="[A-Za-Z\d\.]{6, 12}" title="password must contain uppercase letter, lowercaseletters and special characters. length must be 6 and less than 12" required/>
+        <div class="box">
+          <div onclick="showPassword()" class="passwordreveal">show</div>
+          <div onclick="hidePassword()" class="passwordreveal">hide</div>
+          <div onclick="checkInput()" class="passwordreveal">check</div>
+        </div>
+        <button type="submit">submit</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
